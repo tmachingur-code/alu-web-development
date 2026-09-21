@@ -2,8 +2,6 @@
 
 ## Project Overview
 
-This project is part of the HTML Advanced project at African Leadership University.
-
 The goal of this project is to build the structure of a complete webpage using semantic HTML. The webpage is based on a design provided in Figma and represents the SmileSchool website.
 
 The project focuses on creating the HTML structure without using CSS or styling.
