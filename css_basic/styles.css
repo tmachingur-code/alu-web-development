@@ -1,7 +1,16 @@
 body {
     display: flex;
     flex-direction: column;
+    background-color: #f5f7fa;
+    color: #263238;
 }
+
+header {
+    background-color: #ffffff;
+    border-bottom: 1px solid #ddd;
+}
+
+
 
 main {
     display: flex;
@@ -12,9 +21,28 @@ main {
 article {
     flex: 2;
     overflow-y: auto;
+    padding: 20px;
+    background-color: #ffffff;
+
 }
 
 aside {
     flex: 1;
     overflow-y: auto;
+    padding: 20px;
+    background-color: #eef2f7;
+}
+
+a {
+    color: #1565c0;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1,
+h2 {
+    margin-bottom: 15px;
 }
