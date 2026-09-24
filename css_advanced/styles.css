@@ -217,4 +217,105 @@ header a {
 
     text-align: center;
     color: #FFFFFF;
+
+}
+
+/* =========================
+   TASK 3: QUOTE SECTION
+   ========================= */
+
+main > section:nth-child(2) {
+    width: 100%;
+    height: 392px;
+
+    background: #C271FF;
+
+    position: relative;
+}
+
+
+/* Testimonial container */
+main > section:nth-child(2) > div {
+    width: 943px;
+    height: 160px;
+
+    position: absolute;
+    top: 108px;
+    left: 259px;
+
+    display: flex;
+    align-items: flex-start;
+}
+
+
+/* Avatar */
+main > section:nth-child(2) > div > img {
+    width: 160px;
+    height: 160px;
+
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+/* Text container */
+main > section:nth-child(2) > div > div {
+    width: 730px;
+    height: 158px;
+
+    margin-left: 53px;
+}
+
+
+/* Quote */
+main > section:nth-child(2) blockquote {
+    width: 730px;
+    height: 68px;
+
+    margin: 2px 0 0 0;
+    padding: 0;
+
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33.6px;
+    letter-spacing: 0;
+
+    color: #FFFFFF;
+}
+
+
+/* Person name */
+main > section:nth-child(2) div > div p:first-of-type {
+    margin: 14px 0 0 0;
+    padding: 0;
+
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 33.6px;
+    letter-spacing: 0;
+
+    color: #FFFFFF;
+}
+
+
+/* Person's job */
+main > section:nth-child(2) div > div p:last-of-type {
+    width: 165px;
+    height: 34px;
+
+    margin: 0;
+    padding: 0;
+
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33.6px;
+    letter-spacing: 0;
+
+    font-style: italic;
+    color: #FFFFFF;
+
+    white-space: nowrap;
 }
