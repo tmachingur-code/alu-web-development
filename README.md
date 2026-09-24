@@ -1,54 +1,52 @@
-# HTML AND CSS
+# ALU Web Development: HTML and CSS
 
-This repository contains my web development projects completed as part of my **Software Engineering studies at African Leadership University (ALU)**.
+This repository contains web development projects completed as part of my Software Engineering studies at African Leadership University.
+
+The projects demonstrate my progression from learning the fundamentals of HTML and CSS to building and styling complete webpages based on a Figma design.
 
 ## Projects
 
-### 1. HTML Basics
+### HTML Basics
 
-Introduction to HTML and webpage structure.
+A foundational project focused on using HTML to structure webpages and organize content.
 
-**Topics:** HTML structure, headings, links, images, lists, tables, forms, and semantic elements.
+Topics covered include HTML document structure, headings, paragraphs, links, images, lists, tables, forms, and semantic elements.
 
-📁 `html_basic/`
+Directory: `html_basic/`
 
-### 2. CSS Basics
+### CSS Basics
 
-Introduction to CSS and webpage styling.
+A project focused on using CSS to style and format webpages.
 
-**Topics:** selectors, colors, fonts, box model, spacing, backgrounds, and basic layouts.
+Topics covered include selectors, colors, fonts, the CSS box model, spacing, backgrounds, borders, and basic layouts.
 
-📁 `css_basic/`
+Directory: `css_basic/`
 
-### 3. HTML Advanced
+### HTML Advanced
 
-Building a complete webpage structure from a designer's specification.
+A project focused on building the structure of a complete SmileSchool webpage using HTML.
 
-**Topics:** header, banner, testimonials, tutorials, membership, FAQ, and footer.
+The webpage includes a header, banner, quote section, tutorials, membership section, FAQ, and footer.
 
-📁 `html_advanced/`
+Directory: `html_advanced/`
 
-### 4. CSS Advanced
+### CSS Advanced
 
-Styling the HTML Advanced project to match a Figma design.
+A continuation of the HTML Advanced project where CSS is used to style the SmileSchool webpage according to a Figma design.
 
-**Topics:** Flexbox, Grid, positioning, typography, spacing, backgrounds, cards, and sections.
+The project focuses on layout, typography, spacing, colors, positioning, Flexbox, Grid, backgrounds, buttons, cards, and other page sections.
 
-📁 `css_advanced/`
+Directory: `css_advanced/`
 
-## 🛠️ Technologies
+## Technologies
 
-* HTML5
-* CSS3
-* Git & GitHub
-* GitHub Pages
+- HTML5
+- CSS3
+- Git
+- GitHub
+- GitHub Pages
 
-## 🎯 Learning Goals
 
-* Build and structure webpages with HTML.
-* Style webpages with CSS.
-* Create layouts using Flexbox and Grid.
-* Translate Figma designs into webpages.
-* Use Git and GitHub for version control.
-* Deploy webpages using GitHub Pages.
 
+BSc Software Engineering  
+African Leadership University
