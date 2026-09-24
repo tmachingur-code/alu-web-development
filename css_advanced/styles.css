@@ -319,3 +319,225 @@ main > section:nth-child(2) div > div p:last-of-type {
 
     white-space: nowrap;
 }
+
+/* TASK 4 - Popular Tutorials */
+
+main > section:nth-child(3) {
+  width: 100%;
+  height: 450px;
+  background: #ffffff;
+  position: relative;
+  padding-top: 87px;
+  box-sizing: border-box;
+}
+
+/* Most popular tutorials */
+main > section:nth-child(3) > h1 {
+  width: auto;
+  height: 40px;
+  margin: 0;
+  padding: 0;
+
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 40px;
+  text-align: center;
+  color: #071629;
+
+  white-space: nowrap;
+}
+
+main > section:nth-child(3) > h1 span {
+  font-weight: 700;
+  color: #C271FF;
+}
+
+/* Cards container */
+main > section:nth-child(3) > div {
+  width: 1228px;
+  height: 335px;
+  margin: 35px auto 0;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Individual card */
+main > section:nth-child(3) > div > div {
+  width: 255px;
+  height: 335px;
+
+  position: relative;
+
+  background: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px 0px #0716292E;
+}
+
+/* Preview image */
+main > section:nth-child(3) > div > div > img:first-child {
+  width: 255px;
+  height: 154px;
+
+  object-fit: cover;
+
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+/* Play button */
+main > section:nth-child(3) > div > div::before {
+  content: "";
+  position: absolute;
+
+  top: 45px;
+  left: 96px;
+
+  width: 64px;
+  height: 64px;
+
+  background: #ffffff;
+  opacity: 0.86;
+
+  border-radius: 50%;
+
+  z-index: 2;
+}
+
+/* Play triangle */
+main > section:nth-child(3) > div > div::after {
+  content: "";
+
+  position: absolute;
+
+  top: 69px;
+  left: 120px;
+
+  width: 0;
+  height: 0;
+
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-left: 13px solid #C271FF;
+
+  z-index: 3;
+}
+
+/* Tutorial title */
+main > section:nth-child(3) > div > div > h2 {
+  position: absolute;
+  top: 172px;
+  left: 13px;
+
+  width: 106px;
+  height: 20px;
+
+  margin: 0;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #071629;
+
+  white-space: nowrap;
+}
+
+/* Description */
+main > section:nth-child(3) > div > div > p {
+  position: absolute;
+  top: 199px;
+  left: 13px;
+
+  width: 242px;
+  height: 48px;
+
+  margin: 0;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #07162980;
+}
+
+/* Author section */
+main > section:nth-child(3) > div > div > div:first-of-type {
+  position: absolute;
+  top: 261px;
+  left: 13px;
+
+  height: 30px;
+
+  display: flex;
+  align-items: center;
+}
+
+/* Author image */
+main > section:nth-child(3) > div > div > div:first-of-type > img {
+  width: 30px;
+  height: 30px;
+
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Author name */
+main > section:nth-child(3) > div > div > div:first-of-type > h3 {
+  margin: 0 0 0 13px;
+
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 27px;
+  color: #C271FF;
+
+  white-space: nowrap;
+}
+
+/* Rating section */
+.rating {
+  position: absolute;
+  top: 297px;
+  left: 13px;
+
+  width: 229px;
+  height: 27px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Stars */
+.stars {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.stars span {
+  width: 15px;
+  height: 15px;
+
+  font-size: 15px;
+  line-height: 15px;
+  color: #C271FF;
+}
+
+.stars .empty-star {
+  color: #D8D8D8;
+}
+
+/* Duration */
+.rating > p {
+  width: 34px;
+  height: 27px;
+
+  margin: 0;
+
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 27px;
+  text-align: right;
+  color: #C271FF;
+
+  white-space: nowrap;
+}
