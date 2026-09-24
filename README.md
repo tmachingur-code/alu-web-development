@@ -46,7 +46,4 @@ Directory: `css_advanced/`
 - GitHub
 - GitHub Pages
 
-
-
-BSc Software Engineering  
-African Leadership University
+The website is live at https://tmachingur-code.github.io/alu-web-development/css_advanced/
