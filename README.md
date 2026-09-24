@@ -1,4 +1,4 @@
-# ALU Web Development
+# HTML AND CSS
 
 This repository contains my web development projects completed as part of my **Software Engineering studies at African Leadership University (ALU)**.
 
