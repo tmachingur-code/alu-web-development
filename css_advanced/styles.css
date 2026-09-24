@@ -749,3 +749,89 @@ main > section:nth-child(5) > div > div > p {
   letter-spacing: 0;
   color: #07162980;
 }
+
+/* TASK 7 - Footer */
+
+footer {
+  width: 100%;
+  height: 249px;
+  margin: 84px 0 0;
+  padding: 0;
+  background: #071629;
+  box-sizing: border-box;
+}
+
+/* Footer global container */
+footer > div {
+  width: 1110px;
+  height: 249px;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* Logo and social icons row */
+footer > div > div {
+  position: absolute;
+  top: 90px;
+  left: 0;
+  width: 100%;
+  height: 30px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Footer logo */
+footer > div > div > img {
+  width: 169px;
+  height: 30px;
+  object-fit: contain;
+}
+
+/* Social icons container */
+footer > div > div > div {
+  width: 130px;
+  height: 30px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Social media links */
+footer > div > div > div > a {
+  width: 30px;
+  height: 30px;
+  display: block;
+}
+
+/* Social media images */
+footer > div > div > div > a > img {
+  width: 30px;
+  height: 30px;
+  display: block;
+}
+
+/* Copyright */
+footer > div > p {
+  position: absolute;
+  top: 195px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  width: 96px;
+  height: 15px;
+  margin: 0;
+  padding: 0;
+
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  white-space: nowrap;
+
+  color: #FFFFFF;
+  opacity: 0.35;
+}
