@@ -1,0 +1,220 @@
+/* =========================================
+   GENERAL
+   ========================================= */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+
+/* =========================================
+   HEADER
+   ========================================= */
+
+header {
+    position: absolute;
+    top: 35px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    width: 1103px;
+    height: 29px;
+
+    z-index: 10;
+}
+
+header > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img {
+    width: 167px;
+    height: 29px;
+}
+
+header > div > div {
+    display: flex;
+    gap: 40px;
+}
+
+header a {
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 100%;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+
+/* =========================================
+   HERO
+   ========================================= */
+
+.hero {
+    width: 100%;
+    height: 1093px;
+
+    background: #071629 url("images/background.png") center top / cover no-repeat;
+
+    color: #FFFFFF;
+}
+
+
+/* =========================================
+   HERO CONTENT
+   ========================================= */
+
+.hero-content {
+    padding-top: 220px;
+    text-align: center;
+}
+
+.hero-content h1 {
+    margin: 0;
+
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 700;
+    font-size: 120px;
+    line-height: 120px;
+
+    color: #FFFFFF;
+}
+
+
+/* SMILES GRIN LAUGH */
+
+.smile-words {
+    display: flex;
+    justify-content: center;
+    gap: 58px;
+
+    margin: 21px 0 0;
+
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #FFFFFF;
+}
+
+.smile-words span {
+    display: block;
+}
+
+
+/* REGISTER BUTTON */
+
+.hero-content button {
+    width: 162px;
+    height: 44px;
+
+    margin-top: 38px;
+
+    border: none;
+    border-radius: 22px;
+
+    background: #C271FF;
+    box-shadow: 0 2px 20px 0 #00000080;
+
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+
+    color: #FFFFFF;
+}
+/* =========================================
+   PROS
+   ========================================= */
+
+.pros-section {
+    text-align: center;
+}
+.pros-section h2 {
+    margin: 168px 0 0;
+
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+
+    color: #FFFFFF;
+}
+
+.pros-section h2 .learn {
+    color: #C271FF;
+    font-weight: 700;
+}
+
+.pros-section h2 .pros-word {
+    color: #FFFFFF;
+    font-weight: 300;
+}
+
+
+.pros {
+    width: 1009px;
+    height: 237px;
+
+    margin: 87px auto 0;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.pro {
+    width: 150px;
+    height: 237px;
+
+    text-align: center;
+}
+
+.pro img {
+    width: 150px;
+    height: 150px;
+
+    border-radius: 50%;
+}
+
+.pro h3 {
+    width: 150px;
+    height: 27px;
+
+    margin: 10px 0 0;
+
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 27px;
+
+    text-align: center;
+    color: #FFFFFF;
+
+    white-space: nowrap;
+}
+
+.pro p {
+    width: 150px;
+    height: 48px;
+
+    margin: 2px 0 0;
+    padding: 0;
+
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    text-align: center;
+    color: #FFFFFF;
+}
